@@ -1,0 +1,112 @@
+
+@media (max-width: 1024px) {
+    .servicos-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobre-topo h1 {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 30px 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .servicos-blocos {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .servicos-cards {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
+    .servicos-topo h1 {
+        font-size: 40px;
+    }
+
+    .sobre-topo h1 {
+        font-size: 36px;
+    }
+
+    .identidade {
+        grid-template-columns: 1fr;
+    }
+
+    .compromisso {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contatos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        width: 90px;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .servicos-topo h1 {
+        font-size: 32px;
+    }
+
+    .sobre-topo h1 {
+        font-size: 30px;
+    }
+
+    .servicos-titulo h2 {
+        font-size: 27px;
+    }
+
+    .servico-info {
+        padding: 24px;
+    }
+
+    .footer-conteudo p {
+        max-width: 100%;
+    }
+}
